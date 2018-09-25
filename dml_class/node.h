@@ -16,6 +16,9 @@ using std::string;
 class Node {
 public:
     explicit Node (string name);
+
+    Node();
+
     virtual void logging () const;
 
 private:
@@ -29,5 +32,8 @@ void Node::logging() const {
 
 inline
 Node::Node(string name) : _name(std::move(name)) {}
+
+inline
+Node::Node() {}
 
 #endif //DATA_DML_CM_H
