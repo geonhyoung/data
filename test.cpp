@@ -1,4 +1,5 @@
 #include <iostream>
+#include "A.h"
 
 using namespace std;
 
@@ -17,6 +18,8 @@ int main () {
     if (j)
         cout << j << endl;
 
+    A a;
+    a.print();
 
     return 0;
 }
