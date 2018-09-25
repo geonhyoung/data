@@ -11,5 +11,11 @@ int main () {
 
     cout << j << endl;
 
+    j += 1;
+
+    if (j)
+        cout << j << endl;
+
+
     return 0;
 }
