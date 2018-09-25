@@ -7,7 +7,8 @@ int main () {
     cout << "test!!" << endl;
     cout << "test!!" << endl;
 
-    int j = 1;
+    int j;
+    j = 1;
 
     cout << j << endl;
 
