@@ -15,8 +15,7 @@ int main () {
 
     j += 1;
 
-    if (j)
-        cout << j << endl;
+    if (!j) {} else cout << j << endl;
 
     A a;
     a.print();

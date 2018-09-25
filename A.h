@@ -14,11 +14,13 @@ public:
 
     explicit A (int val);
 
-    void print () const {
-        std::cout << a << std::endl;
-    }
+    void print () const;
 };
 
 A::A(int val) : a(val) {}
+
+void A::print() const {
+    std::cout << a << std::endl;
+}
 
 #endif //DATA_A_H
