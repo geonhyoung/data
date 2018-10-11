@@ -18,6 +18,8 @@ int main () {
     int j;
     j = 1;
 
+    j++;
+
     cout << j << endl;
 
     j += 1;
