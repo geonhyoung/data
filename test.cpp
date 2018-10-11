@@ -9,6 +9,9 @@ int main () {
     cout << "test!!" << endl;
     cout << "test!!" << endl;
     cout << "test!!" << endl;
+    cout << "test!!" << endl;
+    cout << "test!!" << endl;
+    cout << "test!!" << endl;
 
     int j;
     j = 1;
