@@ -32,8 +32,10 @@ int main () {
     A a;
     a.print();
 
-    if (nullptr != &a)
-        cout << "a is not null" << endl;
+    A *aa;
+    aa = new A (10);
+
+    aa->print();
 
     return 0;
 }
