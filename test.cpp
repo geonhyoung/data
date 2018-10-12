@@ -32,8 +32,16 @@ int main () {
     A a;
     a.print();
 
+/*
     A *aa;
     aa = new A (10);
+
+    aa->print();
+
+    delete aa;
+    */
+
+    shared_ptr<A> aa(new A(10));
 
     aa->print();
 
