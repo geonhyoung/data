@@ -25,10 +25,15 @@ int main () {
 
     j += 1;
 
-    if (!j) {} else cout << j << endl;
+    if (!j) {}
+    else
+        cout << j << endl;
 
     A a;
     a.print();
+
+    if (nullptr != &a)
+        cout << "a is not null" << endl;
 
     return 0;
 }
